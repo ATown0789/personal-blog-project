@@ -1,5 +1,9 @@
 #nav {
 	position: fixed;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 	top: 0;
 	margin: 0;
 	background: #8c8c8c;
@@ -8,14 +12,16 @@
 	box-shadow: 0 10px 10px 0 rgba(0,0,0,0.75);
 }
 
-#nav-contain { 
-	width: 100vw;
+#nav-contain {
 	padding: 0;
 	margin: 0;
 	display: flex;
-	justify-content: center;
 	list-style-type: none;
 	background: #8c8c8c;
+}
+
+#nav-logo{
+	display: none;
 }
 
 .nav-item {

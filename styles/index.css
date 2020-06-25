@@ -3,7 +3,10 @@
 @import 'sidebar.css'; 
 @import 'header.css';
 @import 'main.css';
-@import 'queries.css';
+@import './queries/main-queries.css';
+@import './queries/side-queries.css';
+@import './queries/nav-queries.css';
+@import './queries/head-queries.css';
 
 
 body {
@@ -22,22 +25,29 @@ h2,
 h3,
 p {
 	margin: 0;
-	font-size: 18px;
+	font-size: calc(0.8em + 1.5vw);
 	font-family: Georgia, serif
 }
 
+
+h1 {
+	font-size: calc(2em + 2vw);
+	text-align: center;
+	font-weight: bold;
+}
+
 h2 {
-	font-size: 32px;
+	font-size: calc(1.5em + 2vw);
 	text-align: center;
 }
 
 h3 {
-	font-size: 24px;
+	font-size: calc(1em + 2vw);
 	text-align: center;
 }
 
-h1 {
-	font-size: 38px;
-	text-align: center;
-	font-weight: bold;
-}
+
+
+/*Media queries for index.css */
+
+
