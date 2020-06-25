@@ -1,0 +1,29 @@
+@import 'navbar.css';
+@import 'footer.css';
+@import 'sidebar.css'; 
+@import 'header.css';
+@import 'main.css';
+@import 'queries.css';
+
+
+body {
+	margin: 0;
+	padding: 0;
+	background: white;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-auto-rows: minmax(80px, auto);
+}
+
+/*Normalize font*/
+
+h1,
+h2,
+h3,
+p {
+	margin: 0;
+	font-family:  Georgia, serif
+}
+
+
+

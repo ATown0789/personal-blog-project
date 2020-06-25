@@ -1,0 +1,39 @@
+#main {
+	display: flex;
+	padding: 40px;
+	justify-content: center;
+}
+
+#main-card {
+	background: #bcbcbc;
+	padding: 50px;
+	-webkit-box-shadow: 10px 10px 10px 0 rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 10px 0 rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 10px 0 rgba(0,0,0,0.75);
+}
+
+#main h2 {
+	text-align: center;
+	font-size: 52px;
+	margin: 10px;
+}
+
+#main p {
+	font-size: 30px;
+	line-height: 1.75;
+}
+
+#main img {
+	display: block;
+	margin: auto;
+	padding: 30px;
+}
+
+#main button {
+	float: right;
+	padding: 20px;
+	margin: 20px;
+	background: orange;
+	font-size: 36px;
+	font-weight: bold;
+}
