@@ -1,34 +1,31 @@
 @import 'navbar.css';
 @import 'footer.css';
-@import 'sidebar.css'; 
+@import 'sidebar.css';
 @import 'header.css';
 @import 'main.css';
 @import './queries/main-queries.css';
 @import './queries/side-queries.css';
 @import './queries/nav-queries.css';
 @import './queries/head-queries.css';
+@import './queries/foot-queries.css';
 
 
 body {
 	margin: 0;
 	padding: 0;
 	background: white;
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-auto-rows: minmax(80px, auto);
 }
 
 /*Font*/
 
-h1,
+hd,
 h2,
 h3,
 p {
 	margin: 0;
 	font-size: calc(0.8em + 1.5vw);
-	font-family: Georgia, serif
+	font-family: Georgia, serif;
 }
-
 
 h1 {
 	font-size: calc(2em + 2vw);
@@ -46,8 +43,14 @@ h3 {
 	text-align: center;
 }
 
-
-
 /*Media queries for index.css */
 
-
+@media (min-width: 1200px) {
+	body {
+		display: grid;
+		grid-template-areas:
+			'hd hd hd hd hd hd hd hd hd hd hd'
+			'sd sd sd sd sd mn mn mn mn mn mn'
+			'ft ft ft ft ft ft ft ft ft ft ft';
+	}
+}

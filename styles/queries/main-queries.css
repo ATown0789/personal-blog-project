@@ -1,24 +1,32 @@
-@media(min-width: 600px) {
+@media (min-width: 600px) {
 	#main-card {
 		width: 80%;
 		padding: 35px;
 	}
-	
+
 	#main img {
 		width: 80%;
 		margin: 20px;
 	}
-	
-}@media(min-width: 900px) {
-	#main{
+
+}
+
+@media (min-width: 900px) {
+	#main {
 		padding: 50px;
 	}
-	
+
 	#main-card {
 		width: 60%;
 	}
-	
+
 	#main img {
 		width: 60%;
+	}
+}
+
+@media (min-width: 1200px) {
+	#main {
+		grid-area: mn;
 	}
 }

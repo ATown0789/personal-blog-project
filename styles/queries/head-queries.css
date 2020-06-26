@@ -3,3 +3,10 @@
 		margin-top: 145px;
 	}
 }
+
+@media (min-width: 1200px) {
+	#header {
+		grid-area: hd;
+		height: 450px;
+	}
+}
