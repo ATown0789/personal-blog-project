@@ -53,3 +53,10 @@ figure {
 figure figcaption {
     text-align: center;
 }
+
+q {
+	color: darkgreen;
+	font-weight: bold;
+	text-decoration: underline;
+	font-style: italic;
+}

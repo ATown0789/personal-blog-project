@@ -13,6 +13,11 @@
 	text-align: center;
 }
 
+#sidebar p {
+	text-decoration: underline;
+	font-style: italic;
+}
+
 .card {
 	background: #bcbcbc;
 	padding: 20px;
