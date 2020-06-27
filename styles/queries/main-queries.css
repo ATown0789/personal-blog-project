@@ -27,6 +27,15 @@
 
 @media (min-width: 1200px) {
 	#main {
+		padding: 80px;
 		grid-area: mn;
+	}
+	
+	#main-card {
+		padding: 0 35px 0 35px;
+	}
+	
+	.contain {
+		max-height: 140vh;
 	}
 }

@@ -16,9 +16,6 @@
 @media (min-width: 1200px) {
 	#sidebar {
 		display: initial;
-		margin: auto 0 auto 30px;
-		height: 800px;
-		overflow-y: scroll;
 		grid-area: sd;
 	}
 
